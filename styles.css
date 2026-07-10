@@ -480,3 +480,63 @@ main, .footer {
   font-size: 0.76rem;
   color: var(--ink-faint);
 }
+
+
+/* =========================================================
+   Whitepaper download CTAs
+   ========================================================= */
+.topbar__nav .topbar__download {
+  color: var(--glow);
+  font-weight: 600;
+}
+.topbar__nav .topbar__download:hover {
+  color: #8bd7f2;
+}
+
+.btn--whitepaper {
+  background: linear-gradient(135deg, #7dd8f4 0%, var(--glow) 55%, #3b8fae 100%);
+  color: #061018;
+  border-color: rgba(144, 223, 248, 0.65);
+  box-shadow: 0 0 0 1px rgba(79, 179, 217, 0.12), 0 12px 32px rgba(24, 116, 151, 0.22);
+  font-weight: 600;
+}
+.btn--whitepaper:hover {
+  background: linear-gradient(135deg, #9be4fa 0%, #67c7e9 58%, #459fbe 100%);
+  box-shadow: 0 0 0 1px rgba(144, 223, 248, 0.25), 0 15px 38px rgba(24, 116, 151, 0.3);
+}
+
+.section__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.download-note {
+  margin: 0.75rem 0 0;
+  color: var(--ink-faint);
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  letter-spacing: 0.01em;
+}
+
+.footer__cta--stacked {
+  display: block;
+  width: fit-content;
+  margin-bottom: 0.55rem;
+}
+
+@media (max-width: 560px) {
+  .hero__ctas,
+  .section__actions {
+    align-items: stretch;
+  }
+
+  .hero__ctas .btn,
+  .section__actions .btn {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+}
