@@ -1,4 +1,4 @@
-# OCUP.ai — static site
+# One Chip Unified Protocol OCUP
 
 Static, dependency-free (beyond Google Fonts) implementation of the OCUP.ai
 homepage brief. No build step, no backend, no secrets.
